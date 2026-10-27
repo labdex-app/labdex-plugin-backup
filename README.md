@@ -1,6 +1,6 @@
 # Backup
 
-A [labdex](https://github.com/reykimedev/labdex) plugin. Scheduled backups of the database and inventory to a folder (local disk or a mounted NFS share) or an S3 bucket, encrypted with a passphrase. Secrets in a backup stay encrypted with secret.key, which is never included.
+A [labdex](https://github.com/labdex-app/labdex) plugin. Scheduled backups of the database and inventory to a folder (local disk or a mounted NFS share) or an S3 bucket, encrypted with a passphrase. Secrets in a backup stay encrypted with secret.key, which is never included.
 
 **Version** 1.2 · **Works with** labdex >=1.3,<2 · **Plugin id** `backup`
 
