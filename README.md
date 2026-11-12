@@ -1,5 +1,7 @@
 # Backup
 
+[![Release](https://github.com/labdex-app/labdex-plugin-backup/actions/workflows/release.yml/badge.svg)](https://github.com/labdex-app/labdex-plugin-backup/actions/workflows/release.yml) [![Buy Me a Coffee](https://img.shields.io/badge/buy%20me%20a%20coffee-bitsandbricks-7c3aed?logo=buymeacoffee&logoColor=white&labelColor=181b20)](https://buymeacoffee.com/bitsandbricks)
+
 A [labdex](https://github.com/labdex-app/labdex) plugin. Scheduled backups of the database and inventory to a folder (local disk or a mounted NFS share) or an S3 bucket, encrypted with a passphrase. Secrets in a backup stay encrypted with secret.key, which is never included.
 
 **Version** 1.2 · **Works with** labdex >=1.3,<2 · **Plugin id** `backup`
